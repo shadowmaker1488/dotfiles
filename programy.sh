@@ -65,7 +65,7 @@ yay -S newsboat --noconfirm
 yay -S ntfs-3g --noconfirm
 yay -S python-pipx --noconfirm
 yay -S qbittorrent --noconfirm
-yay -S qimgv --noconfirm
+yay -S qimgv-git --noconfirm
 yay -S qt5ct --noconfirm
 yay -S qt5-wayland --noconfirm
 yay -S qt6-wayland --noconfirm
