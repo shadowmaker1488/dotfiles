@@ -100,20 +100,12 @@ yay -S wf-recorder --noconfirm
 # update file saving location
 xdg-user-dirs-update
 
-
-# Qemu/Kvm
-sudo pacman -S qemu-desktop virt-manager virt-viewer dnsmasq vde2 bridge-utils openbsd-netcat dmidecode --noconfirm
-sudo usermod -a -G libvirt $(whoami)
-newgrp libvirt
-
-
 # enable services
 sudo systemctl enable tlp --noconfirm
 sudo systemctl enable ufw --noconfirm
 sudo ufw enable --noconfirm
 sudo systemctl enable cronie --noconfirm
 sudo systemctl enable cups --noconfirm
-sudo systemctl enable libvirtd.service --noconfirm
 sudo updatedb --noconfirm
 sudo systemctl disable NetworkManager-wait-online.service --noconfirm
 
