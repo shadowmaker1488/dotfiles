@@ -22,7 +22,7 @@ yay -S downgrade --noconfirm
 yay -S ranger --noconfirm
 yay -S swww --noconfirm
 yay -S udiskie --noconfirm
-yay -S hyprland-git --noconfirm
+yay -S hyprland --noconfirm
 yay -S polkit-kde-agent --noconfirm
 yay -S pyradio --noconfirm
 yay -S swaylock-effects-git --noconfirm
