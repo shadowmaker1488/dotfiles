@@ -58,7 +58,7 @@ yay -S nm-connection-editor --noconfirm
 yay -S thunar --noconfirm
 yay -S thunar-volman --noconfirm
 yay -S thunar-archive-plugin --noconfirm
-yay -S tumbler --noconfirm
+yay -S transmission-cli --noconfirm
 yay -S neofetch --noconfirm
 yay -S neovim --noconfirm
 yay -S newsboat --noconfirm
