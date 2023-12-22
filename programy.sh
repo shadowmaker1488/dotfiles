@@ -72,6 +72,7 @@ yay -S qt6-wayland --noconfirm
 yay -S qt6ct --boconfirm
 yay -S reflector --noconfirm
 yay -S subliminal --noconfirm
+yay -S stig --noconfirm
 yay -S thunderbird --noconfirm
 yay -S timeshift-bin --noconfirm
 yay -S ttf-meslo-nerd --noconfirm
