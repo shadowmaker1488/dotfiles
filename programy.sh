@@ -94,6 +94,7 @@ yay -S wlogout --noconfirm
 yay -S wlsunset --noconfirm
 yay -S xdg-user-dirs --noconfirm
 yay -S zathura-pdf-mupdf --noconfirm
+yay -S zathura-cb --noconfirm
 yay -S zsh --noconfirm
 yay -S nwg-look-bin --noconfirm
 yay -S wf-recorder --noconfirm
