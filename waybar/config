@@ -1,13 +1,13 @@
 {
     "layer": "top", // Waybar at top layer
     "position": "top", // Waybar position (top|bottom|left|right)
-    "height": 30, // Waybar height (to be removed for auto height)
+    "height": 43, // Waybar height (to be removed for auto height)
     // "width": 1280, // Waybar width
     "spacing": 5, // Gaps between modules (4px)
     // Choose the order of the modules
     "modules-left": ["hyprland/workspaces"],
     "modules-center": ["clock"],
-    "modules-right": ["network", "pulseaudio", "backlight","battery","tray"],
+    "modules-right": ["network", "pulseaudio", "backlight","battery", "tray"],
 
     // Modules configuration
     // "wlr/workspaces": {
@@ -87,5 +87,5 @@
         },
         "on-click": "kitty -e pulsemixer"
     },
-	
+    
 }
