@@ -14,12 +14,14 @@ yay -S atool --noconfirm
 yay -S blueman --noconfirm
 yay -S breeze --noconfirm
 yay -S ncdu --noconfirm
+yay -S ncspot --noconfirm 
 yay -S ttf-font-awesome --noconfirm
 yay -S ttf-jetbrains-mono-nerd --noconfirm
 yay -S cronie --noconfirm
+yay -S ctpv-git --noconfirm
 yay -S kitty --noconfirm
+yay -S lf --noconfirm
 yay -S downgrade --noconfirm
-yay -S ranger --noconfirm
 yay -S swww --noconfirm
 yay -S udiskie --noconfirm
 yay -S hyprland --noconfirm
