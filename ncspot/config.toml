@@ -1,6 +1,6 @@
 [keybindings]
-"b" = "seek -1000"
-"n" = "seek +1000"
+"y" = "seek -1000"
+"x" = "seek +1000"
 "Space" = "playpause"
 
 
