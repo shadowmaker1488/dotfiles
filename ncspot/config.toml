@@ -1,6 +1,6 @@
 [keybindings]
-"y" = "seek -1000"
-"x" = "seek +1000"
+"," = "seek -5000"
+"." = "seek +5000"
 "Space" = "playpause"
 "Shift+g" = "move bottom"
 "Shift+u" = "move top"
