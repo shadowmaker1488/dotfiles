@@ -116,3 +116,8 @@ sudo systemctl disable NetworkManager-wait-online.service --noconfirm
 # pipx install
 pipx ensurepath --noconfirm
 pipx install ffsubsync --noconfirm
+
+# set default xdg
+xdg-mime default libreoffice-writer.desktop application/vnd.openxmlformats-officedocument.wordprocessingml.document
+
+xdg-mime default libreoffice-impress.desktop application/vnd.openxmlformats-officedocument.presentationml.presentation
