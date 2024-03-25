@@ -26,7 +26,6 @@ yay -S swww --noconfirm
 yay -S udiskie --noconfirm
 yay -S hyprland --noconfirm
 yay -S polkit-kde-agent --noconfirm
-yay -S pyradio --noconfirm
 yay -S swaylock-effects-git --noconfirm
 yay -S swaync --noconfirm
 yay -S brightnessctl --noconfirm
