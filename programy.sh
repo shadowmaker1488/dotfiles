@@ -90,8 +90,6 @@ yay -S webtorrent-cli --noconfirm
 yay -S xidel --noconfirm
 yay -S yt-dlp --noconfirm
 yay -S wl-clipboard --noconfirm
-yay -S rofi --noconfirm
-yay -S rofi-calc --noconfirm
 yay -S wlogout --noconfirm
 yay -S wlsunset --noconfirm
 yay -S xdg-user-dirs --noconfirm
@@ -100,6 +98,8 @@ yay -S zathura-cb --noconfirm
 yay -S zsh --noconfirm
 yay -S nwg-look-bin --noconfirm
 yay -S wf-recorder --noconfirm
+yay -S wofi --noconfirm
+yay -S wofi-calc --noconfirm
 
 # update file saving location
 xdg-user-dirs-update
