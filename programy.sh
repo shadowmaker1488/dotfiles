@@ -14,7 +14,7 @@ yay -S atool --noconfirm
 yay -S blueman --noconfirm
 yay -S breeze --noconfirm
 yay -S ncdu --noconfirm
-yay -S ncspot --noconfirm 
+yay -S ncspot-bin --noconfirm 
 yay -S ttf-font-awesome --noconfirm
 yay -S ttf-jetbrains-mono-nerd --noconfirm
 yay -S cronie --noconfirm
