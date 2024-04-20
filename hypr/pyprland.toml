@@ -1,0 +1,15 @@
+[pyprland]
+plugins = [
+  "scratchpads",
+  "workspaces_follow_focus",
+]
+
+[workspaces_follow_focus]
+max_workspaces = 9
+
+[scratchpads.music]
+animation = "fromTop"
+command = "kitty --class music -e ncspot"
+class = "music"
+size = "75% 60%"
+

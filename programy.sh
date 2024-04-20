@@ -18,13 +18,13 @@ yay -S ncspot-bin --noconfirm
 yay -S ttf-font-awesome --noconfirm
 yay -S ttf-jetbrains-mono-nerd --noconfirm
 yay -S cronie --noconfirm
-yay -S ctpv-git --noconfirm
 yay -S kitty --noconfirm
 yay -S ranger --noconfirm
 yay -S downgrade --noconfirm
 yay -S swww --noconfirm
 yay -S udiskie --noconfirm
 yay -S hyprland --noconfirm
+yay -S pyprland --noconfirm
 yay -S polkit-kde-agent --noconfirm
 yay -S swaylock-effects-git --noconfirm
 yay -S swaync --noconfirm
