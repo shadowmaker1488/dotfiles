@@ -59,7 +59,6 @@ yay -S nm-connection-editor --noconfirm
 yay -S thunar --noconfirm
 yay -S thunar-volman --noconfirm
 yay -S thunar-archive-plugin --noconfirm
-yay -S transmission-cli --noconfirm
 yay -S neofetch --noconfirm
 yay -S neovim --noconfirm
 yay -S newsboat --noconfirm
@@ -73,7 +72,6 @@ yay -S qt6-wayland --noconfirm
 yay -S qt6ct --boconfirm
 yay -S reflector --noconfirm
 yay -S subliminal --noconfirm
-yay -S stig --noconfirm
 yay -S thunderbird --noconfirm
 yay -S timeshift-bin --noconfirm
 yay -S ttf-meslo-nerd --noconfirm

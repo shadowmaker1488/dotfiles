@@ -4,6 +4,9 @@
 "Space" = "playpause"
 "Shift+g" = "move bottom"
 "Shift+u" = "move top"
+"-" = "voldown 5"
+"+" = "volup 5"
+
 
 
 
