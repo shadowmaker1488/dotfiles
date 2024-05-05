@@ -59,7 +59,7 @@ yay -S nm-connection-editor --noconfirm
 yay -S thunar --noconfirm
 yay -S thunar-volman --noconfirm
 yay -S thunar-archive-plugin --noconfirm
-yay -S neofetch --noconfirm
+yay -S fastfetch --noconfirm
 yay -S neovim --noconfirm
 yay -S newsboat --noconfirm
 yay -S ntfs-3g --noconfirm
@@ -95,8 +95,8 @@ yay -S zathura-cb --noconfirm
 yay -S zsh --noconfirm
 yay -S nwg-look-bin --noconfirm
 yay -S wf-recorder --noconfirm
-yay -S wofi --noconfirm
-yay -S wofi-calc --noconfirm
+yay -S rofi --noconfirm
+yay -S rofi-calc --noconfirm
 
 # update file saving location
 xdg-user-dirs-update
