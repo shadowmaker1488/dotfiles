@@ -25,7 +25,7 @@ yay -S swww --noconfirm
 yay -S udiskie --noconfirm
 yay -S hyprland --noconfirm
 yay -S pyprland --noconfirm
-yay -S polkit-kde-agent --noconfirm
+yay -S xfce-polkit --noconfirm
 yay -S swaylock-effects-git --noconfirm
 yay -S swaync --noconfirm
 yay -S brightnessctl --noconfirm
@@ -95,8 +95,8 @@ yay -S zathura-cb --noconfirm
 yay -S zsh --noconfirm
 yay -S nwg-look-bin --noconfirm
 yay -S wf-recorder --noconfirm
-yay -S rofi --noconfirm
-yay -S rofi-calc --noconfirm
+yay -S wofi --noconfirm
+yay -S wofi-calc --noconfirm
 
 # update file saving location
 xdg-user-dirs-update
