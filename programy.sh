@@ -25,7 +25,7 @@ yay -S swww --noconfirm
 yay -S udiskie --noconfirm
 yay -S hyprland --noconfirm
 yay -S pyprland --noconfirm
-yay -S xfce-polkit --noconfirm
+yay -S lxqt-policykit --noconfirm
 yay -S swaylock-effects-git --noconfirm
 yay -S swaync --noconfirm
 yay -S brightnessctl --noconfirm
