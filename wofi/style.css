@@ -1,77 +1,61 @@
-window {
-    margin: 0px;
-    border: 5px solid #1e1e2e;
-    background-color: #cdd6f4;
-    border-radius: 0px;
-    font-size: 17px;
+{
+    font-family: "Fantasque Sans Mono";
+    font-size: 18px;
 }
 
-#input {
-    padding: 4px;
-    margin: 4px;
-    padding-left: 20px;
-    border: none;
-    color: #cdd6f4;
-    font-weight: bold;
-    background-color: #1e1e2e;
-   	outline: none;
-    border-radius: 15px;
-    margin: 10px;
-    margin-bottom: 2px;
-}
-#input:focus {
-    border: 0px solid #1e1e2e;
-    margin-bottom: 0px;
-}
-
-#inner-box {
-    margin: 4px;
-    border: 10px solid #1e1e2e;
-    color: #cdd6f4;
-    font-weight: bold;
-    background-color: #1e1e2e;
-    border-radius: 15px;
+#window {
+	/*background-color: --wofi-color0;*/
+	color: --wofi-color2;
+	border: 2px solid --wofi-color1;
+	border-radius: 0px;
 }
 
 #outer-box {
-    margin: 0px;
-    border: none;
-    border-radius: 15px;
-    background-color: #1e1e2e;
+	padding: 20px;
+}
+
+#input {
+	background-color: --wofi-color1;
+	border: 1px solid --wofi-color3;
+	padding: 8px 12px;
 }
 
 #scroll {
-    margin-top: 5px;
-    border: none;
-    border-radius: 15px;
-    margin-bottom: 5px;
-    /* background: rgb(255,255,255); */
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
-#img:selected {
-    background-color: #89b4fa;
-    border-radius: 15px;
+#inner-box {
+}
+
+#img {
+	padding-right: 10px;
+}
+
+#text {
+	color: --wofi-color2;
 }
 
 #text:selected {
-    color: #cdd6f4;
-    margin: 0px 0px;
-    border: none;
-    border-radius: 15px;
-    background-color: #89b4fa;
+	color: --wofi-color0;
 }
 
 #entry {
-    margin: 0px 0px;
-    border: none;
-    border-radius: 15px;
-    background-color: transparent;
+	padding: 6px;
 }
 
 #entry:selected {
-    margin: 0px 0px;
-    border: none;
-    border-radius: 15px;
-    background-color: #89b4fa;
+	background-color: --wofi-color3;
+	background: linear-gradient(90deg, #bbccdd, #cca5dd);
+	color: --wofi-color0;
 }
 
+#unselected {
+}
+
+#selected {
+}
+
+#input, #entry:selected {
+	border-radius: 4px;
+}

@@ -35,7 +35,7 @@ fi
 
 ## Wofi Command
 wofi_command="wofi --show dmenu \
-			--prompt choose...
+			--prompt Zvolte...
 			--conf $CONFIG --style $STYLE --color $COLORS \
 			--width=$WIDTH% --height=$HEIGHT% \
 			--cache-file=/dev/null \
