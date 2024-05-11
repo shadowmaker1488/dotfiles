@@ -13,7 +13,7 @@ yay -S adobe-source-han-sans-kr-fonts --noconfirm
 yay -S atool --noconfirm
 yay -S blueman --noconfirm
 yay -S breeze --noconfirm
-yay -S ncdu --noconfirm
+yay -S gdu --noconfirm
 yay -S ncspot-bin --noconfirm 
 yay -S ttf-font-awesome --noconfirm
 yay -S ttf-jetbrains-mono-nerd --noconfirm
@@ -23,7 +23,7 @@ yay -S ranger --noconfirm
 yay -S downgrade --noconfirm
 yay -S swww --noconfirm
 yay -S udiskie --noconfirm
-yay -S hyprland --noconfirm
+yay -S hyprland-git --noconfirm
 yay -S pyprland --noconfirm
 yay -S lxqt-policykit --noconfirm
 yay -S swaylock-effects-git --noconfirm
@@ -36,8 +36,6 @@ yay -S pulsemixer --noconfirm
 yay -S calcurse --noconfirm
 yay -S grimblast-git --noconfirm
 yay -S waybar --noconfirm
-yay -S adobe-source-han-sans-jp-fonts --noconfirm
-yay -S adobe-source-han-sans-kr-fonts --noconfirm
 yay -S tlp --noconfirm
 yay -S aegisub --noconfirm
 yay -S librewolf-bin --noconfirm
