@@ -38,7 +38,7 @@ yay -S grimblast-git --noconfirm
 yay -S waybar --noconfirm
 yay -S tlp --noconfirm
 yay -S aegisub --noconfirm
-yay -S librewolf-bin --noconfirm
+yay -S brave-bin --noconfirm
 yay -S fzf --noconfirm
 yay -S clamtk --noconfirm
 yay -S cups --noconfirm
@@ -100,17 +100,17 @@ yay -S wofi-calc --noconfirm
 xdg-user-dirs-update
 
 # enable services
-sudo systemctl enable tlp --noconfirm
-sudo systemctl enable ufw --noconfirm
-sudo ufw enable --noconfirm
-sudo systemctl enable cronie --noconfirm
-sudo systemctl enable cups --noconfirm
-sudo updatedb --noconfirm
-sudo systemctl disable NetworkManager-wait-online.service --noconfirm
+sudo systemctl enable tlp 
+sudo systemctl enable ufw 
+sudo ufw enable 
+sudo systemctl enable cronie 
+sudo systemctl enable cups 
+sudo updatedb 
+sudo systemctl disable NetworkManager-wait-online.service 
 
 # pipx install
-pipx ensurepath --noconfirm
-pipx install ffsubsync --noconfirm
+pipx ensurepath 
+pipx install ffsubsync 
 
 # set default xdg
 xdg-mime default libreoffice-writer.desktop application/vnd.openxmlformats-officedocument.wordprocessingml.document
