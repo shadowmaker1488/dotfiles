@@ -116,8 +116,3 @@ pipx install ffsubsync
 xdg-mime default libreoffice-writer.desktop application/vnd.openxmlformats-officedocument.wordprocessingml.document
 
 xdg-mime default libreoffice-impress.desktop application/vnd.openxmlformats-officedocument.presentationml.presentation
-
-# Grub-theme
-git clone ~/.config https://github.com/ChrisTitusTech/Top-5-Bootloader-Themes
-cd ~/.config Top-5-Bootloader-Themes
-sudo ./install.sh
