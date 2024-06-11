@@ -19,7 +19,7 @@ yay -S ttf-font-awesome --noconfirm
 yay -S ttf-jetbrains-mono-nerd --noconfirm
 yay -S cronie --noconfirm
 yay -S kitty --noconfirm
-yay -S ranger --noconfirm
+yay -S yazi-git --noconfirm
 yay -S downgrade --noconfirm
 yay -S swww --noconfirm
 yay -S udiskie --noconfirm
@@ -40,6 +40,7 @@ yay -S tlp --noconfirm
 yay -S aegisub --noconfirm
 yay -S brave-bin --noconfirm
 yay -S fzf --noconfirm
+yay -S lynx --noconfirm
 yay -S clamtk --noconfirm
 yay -S cups --noconfirm
 yay -S system-config-printer --noconfirm
