@@ -26,6 +26,7 @@ yay -S udiskie --noconfirm
 yay -S hyprland-git --noconfirm
 yay -S pyprland --noconfirm
 yay -S lxqt-policykit --noconfirm
+yay -S trash-cli --noconfirm
 yay -S swaylock-effects-git --noconfirm
 yay -S swaync --noconfirm
 yay -S brightnessctl --noconfirm
