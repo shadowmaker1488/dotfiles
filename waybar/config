@@ -1,11 +1,11 @@
 {
     "layer": "top", // Waybar at top layer
     "position": "top", // Waybar position (top|bottom|left|right)
-    "height": 43, // Waybar height (to be removed for auto height)
+    "height": 51, // Waybar height (to be removed for auto height)
     // "width": 1280, // Waybar width
     "spacing": 5, // Gaps between modules (4px)
     // Choose the order of the modules
-    "modules-left": ["hyprland/workspaces"],
+    "modules-left": ["hyprland/workspaces", "hyprland/window"],
     "modules-center": ["clock"],
     "modules-right": ["network", "pulseaudio", "backlight","battery", "tray"],
 
@@ -64,7 +64,6 @@
         "format-wifi": "{essid} ",
         "format-ethernet": "{ipaddr}/{cidr} ",
         "tooltip-format": "{ifname} via {gwaddr} ", 
-	"on-click": "kitty -e nmtui",
         "format-linked": "{ifname} (No IP) ",
         "format-disconnected": "Odpojeno ⚠",
     },
