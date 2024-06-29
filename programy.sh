@@ -29,6 +29,7 @@ yay -S lxqt-policykit --noconfirm
 yay -S trash-cli --noconfirm
 yay -S swaylock-effects-git --noconfirm
 yay -S swaync --noconfirm
+yay -S simple-mtpfs --noconfirm
 yay -S brightnessctl --noconfirm
 yay -S cantarell-fonts --noconfirm
 yay -S xdg-desktop-portal-hyprland --noconfirm
@@ -118,3 +119,7 @@ pipx install ffsubsync
 xdg-mime default libreoffice-writer.desktop application/vnd.openxmlformats-officedocument.wordprocessingml.document
 
 xdg-mime default libreoffice-impress.desktop application/vnd.openxmlformats-officedocument.presentationml.presentation
+
+# složky
+sudo mkdir /mnt/Disk2 && sudo chown tom:tom /mnt/Disk2
+sudo mkdir /mnt/android && sudo chown tom:tom /mnt/android

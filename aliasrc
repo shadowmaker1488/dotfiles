@@ -14,3 +14,6 @@ alias update-grub="sudo grub-mkconfig -o /boot/grub/grub.cfg"
 # rofi calc
 alias calc="rofi -show calc"
 
+# mount/umount android
+alias mount-android="simple-mtpfs --device 1 /mnt/android"
+alias umount-android="fusermount -u /mnt/android"
