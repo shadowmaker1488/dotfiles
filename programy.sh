@@ -23,7 +23,7 @@ yay -S yazi-git --noconfirm
 yay -S downgrade --noconfirm
 yay -S swww --noconfirm
 yay -S udiskie --noconfirm
-yay -S hyprland-git --noconfirm
+yay -S hyprland --noconfirm
 yay -S pyprland --noconfirm
 yay -S lxqt-policykit --noconfirm
 yay -S trash-cli --noconfirm
@@ -59,7 +59,7 @@ yay -S nm-connection-editor --noconfirm
 yay -S thunar --noconfirm
 yay -S thunar-volman --noconfirm
 yay -S thunar-archive-plugin --noconfirm
-yay -S pfetch --noconfirm
+yay -S fastfetch --noconfirm
 yay -S neovim --noconfirm
 yay -S newsboat --noconfirm
 yay -S ntfs-3g --noconfirm

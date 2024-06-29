@@ -5,13 +5,11 @@ alias yt="yt-dlp -f bestaudio+bestvideo --remux-video mp4"
 alias yta="yt-dlp -x --audio-format mp3"
 alias yt-album="yt-dlp -x --audio-format mp3 --split-chapters --audio-quality 0"
 alias nvh="nvim ~/.config/hypr/hyprland.conf"
+alias update-mirrors="sudo reflector --latest 20 --sort rate --download-timeout 30 --save /etc/pacman.d/mirrorlist --verbose"
+
 
 # grub update
 alias update-grub="sudo grub-mkconfig -o /boot/grub/grub.cfg"
-
-# mpv
-alias nmpvc="nvim ~/.config/mpv/mpv.conf"
-alias nmpvi="nvim ~/.config/mpv/input.conf"
 
 # rofi calc
 alias calc="rofi -show calc"
