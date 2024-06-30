@@ -1,6 +1,7 @@
 configuration {
     modi: "drun,calc";
     show-icons: true;
+    icon-theme: "";
     display-drun: "";
     drun-display-format: "{icon} {name}";
 }
