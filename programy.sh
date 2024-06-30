@@ -123,3 +123,9 @@ xdg-mime default libreoffice-impress.desktop application/vnd.openxmlformats-offi
 # složky
 sudo mkdir /mnt/Disk2 && sudo chown tom:tom /mnt/Disk2
 sudo mkdir /mnt/android && sudo chown tom:tom /mnt/android
+
+# Oh my zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+# Powerlevel10k
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
