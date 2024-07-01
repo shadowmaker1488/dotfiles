@@ -1,8 +1,10 @@
 set number
 set clipboard=unnamedplus
-colorscheme wildcharm
+colorscheme vim
+set termguicolors
 
-call plug#begin('~/.local/share/nvim/site/autoload/plug.vim/')
+call plug#begin('~/.local/share/nvim/plugged')
+
 Plug 'norcalli/nvim-colorizer.lua'
 
 
@@ -10,3 +12,5 @@ Plug 'norcalli/nvim-colorizer.lua'
 
 
 call plug#end()
+lua require'colorizer'.setup()
+
