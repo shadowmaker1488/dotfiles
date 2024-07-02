@@ -1,4 +1,5 @@
 alias rm="rm -rfI"
+alias cdi="zi"
 alias ll="ls -al"
 alias cp="cp -r"
 alias yt="yt-dlp -f bestaudio+bestvideo --remux-video mp4"

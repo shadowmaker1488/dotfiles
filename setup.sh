@@ -98,6 +98,7 @@ yay -S nwg-look-bin --noconfirm
 yay -S wf-recorder --noconfirm
 yay -S rofi-wayland --noconfirm
 yay -S rofi-calc-git --noconfirm
+yay -S zoxide --noconfirm
 
 # update file saving location
 xdg-user-dirs-update
@@ -110,10 +111,6 @@ sudo systemctl enable cronie
 sudo systemctl enable cups 
 sudo updatedb 
 sudo systemctl disable NetworkManager-wait-online.service 
-
-# pipx install
-pipx ensurepath 
-pipx install ffsubsync 
 
 # set default xdg
 xdg-mime default libreoffice-writer.desktop application/vnd.openxmlformats-officedocument.wordprocessingml.document

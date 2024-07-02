@@ -112,3 +112,7 @@ source ~/.config/aliasrc
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 source ~/.zshenv
+
+# Zoxide
+eval "$(zoxide init --cmd cd zsh)"
+eval "$(zoxide init zsh)"
